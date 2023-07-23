@@ -1,0 +1,754 @@
+:root {
+    --bg: #112372;
+    --user: #6C4DC2;
+    --btn-text: #E7A651;
+    --font-heebo: 'Heebo', sans-serif;
+    --font-Courier-Prime: 'Courier Prime', monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Heebo', sans-serif; */
+}
+
+/* The coding of the header has an H1 tag and two pictures that have been made with Lining SVG and given a background color. */
+.container-bsns-master {
+    max-width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.color-bsns-master {
+    background-color: var(--bg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header h1 {
+    color: white;
+}
+
+.link-to-page div {
+    background-color: var(--user);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.link-to-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* end */
+/* In this part, using SVG, we have added the photo of the audience to the project and given it a background color. We also moved some dives with flex. */
+.img-user {
+    width: 48px;
+    height: 48px;
+    background-color: #3576EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.user {
+    width: 244px;
+    height: 48px;
+    display: flex;
+    gap: 14px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 24px;
+}
+
+.user h3 {
+    color: var(--btn-text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.text-bsns-master h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 800;
+    font-family: var(--font-heebo);
+}
+
+.text-bsns-master p {
+    color: #FFF;
+    font-family: var(--font-Courier-Prime);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-all {
+    width: 170px;
+    height: 48px;
+    background-color: #E7A651;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: var(--font-heebo);
+}
+
+.img-bsns-master {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+/* end */
+/* In this section of the site, we have made the desired cards with dives */
+.plan-bsns {
+    max-width: 380px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-plan-bsns h3 {
+    color: #333;
+    font-family: var(--font-heebo);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.text-plan-bsns p {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: var(--font-Courier-Prime);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.card-plan img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.container-tools {
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.text-tools-bsns {
+    color: #333;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.img-tools-bsns {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 50px;
+}
+
+/* end */
+/* In this part, we used a dive color to give the background to the
+ part in question and in this part we used before and after, we also
+  moved some dives with flex. */
+.shining-color {
+    background-color: var(--bg);
+    height: 100vh;
+    position: relative;
+}
+
+.shining-color::before {
+    position: absolute;
+    content: url(../../asests/o.svg);
+    top: 0;
+    right: 0;
+
+}
+
+.shining-color::after {
+    position: absolute;
+    content: url(../../asests/o3.svg);
+    top: 0;
+    right: 0;
+}
+
+.shining {
+    max-width: 380px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.text-shining h3 {
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    padding-top: 100px;
+}
+
+.img-shining {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-smol {
+    width: 89px;
+}
+
+.img-high {
+    width: 244px;
+}
+
+/* end */
+.customers {
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.img-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-customers {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.text-customers h4 {
+    color: #333;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-customers h5 {
+    color: #E7A651;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+.confirmation p {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: var(--font-Courier-Prime);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.confirmation {
+    display: flex;
+    gap: 30px;
+    margin-top: 28px;
+}
+
+.analysis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.color-analysis {
+    background-color: var(--bg);
+    position: relative;
+}
+
+
+.color-analysis::before {
+    position: absolute;
+    content: url(../../asests/o.svg);
+    top: 0;
+    right: 0;
+
+}
+
+.color-analysis::after {
+    position: absolute;
+    content: url(../../asests/o3.svg);
+    top: 0;
+    right: 0;
+}
+
+.img-analysis {
+    width: 112px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #515151b3;
+    border-radius: 100%;
+}
+
+.text-analysis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.card-analysis {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.text-analysis h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-analysis p {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-Courier-Prime);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.recent {
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.img-recent img {
+    width: 300px;
+}
+
+.img-recent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-recent h5 {
+    color: #E7A651;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.text-recent h3 {
+    color: #333;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-recent p {
+    color: rgba(51, 51, 51, 0.50);
+    text-align: center;
+    font-family: var(--font-Courier-Prime);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.face {
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.img-face img {
+    width: 300px;
+}
+
+.img-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-face h3 {
+    color: #333;
+    font-family: var(--font-heebo);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.text-face p {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: var(--font-Courier-Prime);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text-face div {
+    display: flex;
+    gap: 30px;
+}
+
+.face-2 {
+    max-width: 380px;
+    margin: 50px auto;
+}
+
+.img-face-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-face-2 img {
+    margin-top: 50px;
+}
+
+.text-face-2 h3 {
+    color: #333;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-face-2 h5 {
+    color: #E7A651;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.explor {
+    max-width: 380px;
+    margin: 50px auto;
+
+}
+
+.card-explor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text-explor h5 {
+    color: #E7A651;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.text-explor h3 {
+    color: #333;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-explor p {
+    color: rgba(51, 51, 51, 0.50);
+    text-align: center;
+    font-family: Courier Prime;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text-card-explor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.text-card-explor h5 {
+    color: #333;
+    font-family: var(--font-Courier-Prime);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text-card-explor h3 {
+    color: #333;
+    font-family: var(--font-heebo);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.text-card-explor p {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: var(--font-Courier-Prime);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profil img {
+    width: 48px;
+    height: 48px;
+}
+
+.profil {
+    display: flex;
+    gap: 50px;
+}
+
+.text-card-explor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-card-explor {
+    width: 400px;
+}
+
+.map {
+    background-image: url(../../asests/Group\ 30.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 118vh;
+}
+
+.div-star {
+    width: 329px;
+    height: 560px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 240px;
+    padding: 50px;
+}
+
+.text-map h5 {
+    color: #E7A651;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.text-map h3 {
+    color: #333;
+    font-family: var(--font-heebo);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.input-1 {
+    width: 216px;
+    height: 76px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-2 {
+    width: 216px;
+    height: 76px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-3 {
+    width: 216px;
+    height: 124px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-4 {
+    width: 270px;
+    height: 48px;
+    outline: none;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    border: none;
+}
+
+.color-shadow {
+    background-color: var(--bg);
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+
+.color-shadow::before {
+    position: absolute;
+    content: url(../../asests/o.svg);
+    top: 0;
+    right: 0;
+
+}
+
+.color-shadow::after {
+    position: absolute;
+    content: url(../../asests/o3.svg);
+    top: 0;
+    right: 0;
+}
+
+.shadow {
+    max-width: 380px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.shadow h5 {
+    color: #E7A651;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.shadow h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-heebo);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+footer h1 {
+    color: white;
+}
+
+footer h3 {
+    color: #E7A651;
+    font-family: var(--font-heebo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+footer p {
+    color: #FFF;
+    font-family: var(--font-Courier-Prime);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+footer img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Subscribe div {
+    display: flex;
+}
+
+.btn-2 {
+    background-color: white;
+    width: 270px;
+    height: 48px;
+    border: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    padding-left:140px ;
+}
+@media only screen and (min-width:900px) {
+    
+}
